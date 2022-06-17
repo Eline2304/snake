@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Snake game</title>    
+<style>
+body {
+background-image: url("space3.gif");
+}
+    canvas {background: black}
+</style>
+
+<script src="snake.js">
+</script>
+</head>
+    
+<body onload="init();">
+<div style="text-align:center">
+    <canvas id="myCanvas" width="400" height="400">
+    </canvas>
+</div>
+
+</body>
+</html>
